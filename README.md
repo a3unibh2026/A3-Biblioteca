@@ -1,17 +1,21 @@
 # A3-Biblioteca
 
-API desenvolvida em FastAPI com arquitetura em camadas para gerenciamento de acervo de biblioteca, controle de disponibilidade de livros e registro de empréstimos e devoluções.
+Sistema web para apoio à decisão clínica em termoterapia e canal de orientação entre pacientes e fisioterapeutas, estruturado em uma arquitetura limpa e funcional (Front-end + API simples + Banco de Dados local).
 
 ## Tecnologias Utilizadas
-* Python 3.10+
+* Hmtl
+* Css
+* JavaScript
+* Python
 * FastAPI
-* SQLAlchemy
-* PostgreSQL
-* Pydantic
-* Pytest
+* MySQL
 
 ## Funcionalidades
-* Cadastrar livros
-* Buscar por título ou autor
-* Atualizar informações
-* Registrar empréstimos e devoluções
+* Cadastrar e autenticar usuários
+* Consultar as condições clínicas
+* Buscar recursos de termoterapia
+* Exibir fichas científicas detalhadas
+* Gerenciar favoritos e lembretes terapêuticos
+* Consultar as condições clínicas
+* Buscar recursos de termoterapia
+* Solicitar e registrar atendimentos via chat
