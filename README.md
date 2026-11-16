@@ -1,4 +1,4 @@
-*  Participantes:
+Participantes:
 * Artur Araújo
 * Maria Luiza
 * Lucas Riazzi
