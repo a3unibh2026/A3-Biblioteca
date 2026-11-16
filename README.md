@@ -16,5 +16,9 @@ Sistema web para apoio à decisão clínica em termoterapia e canal de orientaç
 * Buscar recursos de termoterapia
 * Exibir relações de condições e recursos
 * Exibir registros de tratamentos
-* Gerenciar favoritos
+
+## EM FALTA
 * Solicitar e registrar atendimentos via chat
+
+## RESUMO  
+dentro da API existe recursos de chat que interligam usuários e fisioterapeutas, mas está função ainda não está funcional, ainda assim, dentro do Swagger é possível realizar todas as requisições além delas. As requisições foram testadas com um banco de dados local integrado totalmente ao código. Além disso, fomos à fundo na arquitetura de multicamadas, construindo um front-end que utiliza html, css, js, construímos uma API usando fastAPI com Python e também foi utilizado um banco de dados local MySQL. 
