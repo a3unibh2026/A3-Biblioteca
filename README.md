@@ -15,5 +15,6 @@ Sistema web para apoio à decisão clínica em termoterapia e canal de orientaç
 * Consultar as condições clínicas
 * Buscar recursos de termoterapia
 * Exibir evidências científicas
+* Exibir registros de tratamentos
 * Gerenciar favoritos e lembretes terapêuticos
 * Solicitar e registrar atendimentos via chat
