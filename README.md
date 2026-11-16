@@ -1,5 +1,12 @@
-# A3-Termoterapia
+*  Participantes:
+* Artur Araújo
+* Maria Luiza
+* Lucas Riazzi
+* Luiz Andre
+* Stéfany Santana
+* Davi de Assis
 
+# A3-Termoterapia
 Sistema web para apoio à decisão clínica em termoterapia e canal de orientação entre pacientes e fisioterapeutas, estruturado em uma arquitetura limpa e funcional (Front-end + API simples + Banco de Dados local).
 
 ## Tecnologias Utilizadas
