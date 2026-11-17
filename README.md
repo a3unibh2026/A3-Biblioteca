@@ -1,31 +1,32 @@
-Participantes:
-* Artur Araújo
-* Maria Luiza
-* Lucas Riazzi
-* Luiz Andre
-* Stéfany Santana
-* Davi de Assis
-
 # A3-Termoterapia
-Sistema web para apoio à decisão clínica em termoterapia e canal de orientação entre pacientes e fisioterapeutas, estruturado em uma arquitetura limpa e funcional (Front-end + API simples + Banco de Dados local).
+Sistema web para apoio à decisão clínica em termoterapia e canal de orientação entre pacientes e fisioterapeutas, estruturado em uma arquitetura em multicamadas limpa e funcional (Front-end + API REST + Banco de Dados local).
+
+## Participantes
+- Artur Araújo
+- Maria Luiza
+- Lucas Riazzi
+- Luiz Andre
+- Stéfany Santana
+- Davi de Assis
 
 ## Tecnologias Utilizadas
-* Hmtl
-* Css
-* JavaScript
-* Python
-* FastAPI
-* MySQL
+- HTML5
+- CSS3
+- JavaScript
+- Python
+- FastAPI
+- MySQL
 
-## Funcionalidades
-* Cadastrar e autenticar usuários
-* Consultar as condições clínicas
-* Buscar recursos de termoterapia
-* Exibir relações de condições e recursos
-* Exibir registros de tratamentos
+## Funcionalidades Concluídas
+- Cadastrar e autenticar usuários (pacientes e fisioterapeutas)
+- Consultar condições clínicas
+- Buscar recursos de termoterapia
+- Exibir relações entre condições e recursos
+- Exibir e salvar registros de tratamentos
+- **Solicitar e registrar atendimentos via chat** (com histórico completo de mensagens entre paciente e fisioterapeuta)
 
-## EM FALTA
-* Solicitar e registrar atendimentos via chat
-
-## RESUMO  
-dentro da API existe recursos de chat que interligam usuários e fisioterapeutas, mas está função ainda não está funcional, ainda assim, dentro do Swagger é possível realizar todas as requisições além delas. As requisições foram testadas com um banco de dados local integrado totalmente ao código. Além disso, fomos à fundo na arquitetura de multicamadas, construindo um front-end que utiliza html, css, js, construímos uma API usando fastAPI com Python e também foi utilizado um banco de dados local MySQL. 
+## Resumo da Arquitetura e Implementação
+O projeto foi construído seguindo uma arquitetura em multicamadas:
+- **Front-end:** Interface web desenvolvida com HTML, CSS e JavaScript puro para interação do usuário.
+- **Back-end (API):** Desenvolvida em Python com FastAPI, gerenciando todas as regras de negócio, autenticação e endpoints de comunicação. Todas as rotas (incluindo o fluxo completo de solicitações e mensagens do chat) estão documentadas e testadas via Swagger UI.
+- **Banco de Dados:** Banco relacional MySQL (`termoterapia_db`) totalmente integrado à API, estruturado para persistir usuários, condições, recursos, tratamentos, solicitações de atendimento e o histórico de mensagens do chat.
